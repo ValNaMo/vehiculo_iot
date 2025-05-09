@@ -43,8 +43,10 @@ const funcionQueUsaIP = () => {
     const estados = {
         'AVANZAR': 'AVANZANDO',
         'RETROCEDER': 'RETROCEDIENDO',
-        'VUELTA_IZQ': 'GIRANDO IZQUIERDA',
-        'VUELTA_DER': 'GIRANDO DERECHA',
+        'VUE_ADE_IZQ': 'GIRANDO ADE IZQ',
+        'VUE_ADE_DER': 'GIRANDO ADE DER',
+        'VUE_ATR_IZQ': 'GIRANDO ATRAS IZQ',
+        'VUE_ATR_DER': 'GIRANDO ATRAS DER',
         'GIRO_90_IZQ': 'GIRO 90° IZQ',
         'GIRO_90_DER': 'GIRO 90° DER',
         'GIRO_360_IZQ': 'GIRO 360° IZQ',
